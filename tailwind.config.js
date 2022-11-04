@@ -17,5 +17,5 @@ module.exports = {
       'ash': '#F0F1EC'
     }
   },
-  plugins: [],
+  plugins: [require('tailwind-scrollbar-hide')],
 }

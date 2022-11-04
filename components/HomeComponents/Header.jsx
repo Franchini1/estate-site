@@ -4,16 +4,16 @@ import styles from '../../styles/Home.module.css';
 
 const Header = () => {
   return (
-    <section className='bg-dark-green text-white pt-8 h-[500px] sm:h-[405px] mb-[40rem]'>
-      <div className={`${styles.heroText} flex flex-col py-8 text-7xl 
-      font-semibold leading-[1.15]`}>
-        <h1 className='pl-[5.5rem]'>
+    <section className='bg-dark-green text-white pt-8 h-screen sm:h-[405px] mb-[40rem]'>
+      <div className={`${styles.heroText} flex flex-col py-8 text-5xl sm:text-7xl 
+      font-semibold leading-[1.15] text-center sm:text-start`}>
+        <h1 className='sm:pl-[5.5rem]'>
           <span className='text-mid-green'>ARCITECT</span> AWARD-WINNING
         </h1>
-        <h1 className='pl-[17.5rem]'>
+        <h1 className='sm:pl-[17.5rem]'>
           DESIGNERS OF HOME AND
         </h1>
-        <h1 className='pl-[9.5rem]'>
+        <h1 className='sm:pl-[9.5rem]'>
           GARDENS OF <span className='text-mid-green'>DISTINTION.</span>
         </h1>
       </div>
