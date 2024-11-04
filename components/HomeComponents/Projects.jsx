@@ -65,8 +65,8 @@ const Projects = () => {
           id="slider"
           className="w-full h-full overflow-x-scroll whitespace-nowrap scroll-smooth scrollbar-hide"
         >
-          {projectsData.map((project) => (
-            <div className="min-w-fit m-3 inline-block cursor-pointer">
+          {projectsData.map((project, index) => (
+            <div key={index} className="min-w-fit m-3 inline-block cursor-pointer">
               <Image
                 width={520}
                 height={400}
